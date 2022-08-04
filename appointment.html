@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>MAX HOSPITAL</title>
+
+  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl5xsOzVAH7DVi89bU6wvtGJ6gS7nsYQ0Z9w&usqp=CAU"
+    type="image/icon" rel="icon">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+
+<body>
+  <div class="bg_body appointment_page">
+    <header class="fixed-top">
+      <div class="container">
+        <div class="row middle">
+          <div class="col-md-12 center">
+            <my-header></my-header>
+          </div>
+        </div>
+      </div>
+
+    </header>
+
+    <section class="jumbotron page-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="seting">
+              <h3>Appointment</h3>
+              <ol>
+                <li><a href="home.html">Home </a>
+                  <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+                </li>
+                <li><a href="appointment.html">Appointment</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="book_section layout_padding">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form>
+              <h4>
+                BOOK <span>APPOINTMENT</span>
+              </h4>
+              <div class="form-row ">
+                <div class="form-group col-lg-4">
+                  <label for="inputPatientName">Patient Name </label>
+                  <input type="text" class="form-control" id="inputPatientName" placeholder="">
+                </div>
+                <div class="form-group col-md-4" >
+                  <label for="sel1">Doctor's Name</label>
+                  <select class="form-control" id="sel1">
+                    <option >Dr Deepak Malhotra </option>
+                    <option>Dr Nitesh kumar </option>
+                    <option>Dr Nikita Joshi </option>
+                    <option>Dr Arti </option>
+                  </select>
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="sel1">Department's Name</label>
+                  <select class="form-control" id="sel1" >
+                    <option >Gastroenterologist </option>
+                    <option>Paediatrics </option>
+                    <option>Gyaenocologist </option>
+                    <option>Endrocrinologist </option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-row ">
+                <div class="form-group col-lg-4">
+                  <label for="inputPhone">Phone Number</label>
+                  <input type="number" class="form-control" id="inputPhone" placeholder="XXXXXXXXXX">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputSymptoms">Symptoms</label>
+                  <input type="text" class="form-control" id="inputSymptoms" placeholder="">
+                </div>
+                <div class="form-group col-lg-4">
+                  <label for="inputDate">Choose Date </label>
+                  <div class='input-group date' id='datetimepicker1'>
+                    <input type='date' placeholder="dd/mm/yyyy" class="form-control" required>
+
+                  </div>
+                </div>
+                <div class="btn-box">
+              <button type="submit" class="btn btn-success ">Submit Now</button>
+            </div>
+              </div>
+
+            </form>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row middle">
+          <div class="col-md-12">
+            <my-footer></my-footer>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MAX HOSPITAL</title>
+
+    <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl5xsOzVAH7DVi89bU6wvtGJ6gS7nsYQ0Z9w&usqp=CAU"
+        type="image/icon" rel="icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="bg_body registration-page">
+        <header class="fixed-top">
+            <div class="container">
+                <div class="row middle">
+                    <div class="col-md-12 center">
+                        <my-header></my-header>
+                    </div>
+                </div>
+            </div>
+           
+          </header>
+         
+          <section class="jumbotron page-banner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="seting">
+                            <h3>Registration</h3>
+                            <ol>
+                                <li><a href="home.html">Home </a>
+                                    <i class="fa fa-angle-double-right" aria-hidden="true"></i></li>
+                                <li>Registration</li>
+                            </ol>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Background image -->
+        <div class="content-area">
+            <form>
+                <fieldset>
+                    <legend align="center">
+                        <h1>Registration Form</h1>
+                    </legend>
+                    <div class="row-form">
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Enter Name</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field"><input type="text" class="form-control"
+                                        placeholder="Enter your name"></div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Contact No</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field"><input type="text" class="form-control"
+                                        placeholder="Enter your number">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label"><label>Gender</label></div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field gender">
+                                    <input type="radio" name="g">Male
+                                    <input type="radio" name="g">Female
+                                    <input type="radio" name="g">Other
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3">
+                                <div class="child_label">
+                                    <label>Interested in:</label>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+                                <div class="input_field gender">
+                                    <select class="form-control">
+                                        <option value="bt">To Join Hospital</option>
+                                        <option value="bc">To Visit as admin</option>
+                                        <option value="mc">To visit as patient </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row middle">
+                            <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <div class="submission">
+                                    <input type="submit" value="submit" class="btn btn-outline-success" onclick="alert1()">
+                                    <input type="reset" value="Reset" class="btn btn-outline-warning" onclick="alert2()">
+                                </div>
+                                <div class="col-md-3"></div>
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row middle">
+                    <div class="col-md-12">
+                        <my-footer></my-footer>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
