@@ -2,7 +2,7 @@ class Myheader extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
         <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand logo" href="home.html"> <img src="images/logo2.png" /></a>
+    <a class="navbar-brand logo" href="index.html"> <img src="images/logo2.png" /></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,7 +10,7 @@ class Myheader extends HTMLElement {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item ">
-          <a class="nav-link" href="home.html">HOME </a>
+          <a class="nav-link" href="index.html">HOME </a>
         </li>
         <li class="nav-item ">
         <a class="nav-link" href="aboutus.html">ABOUT US</a>
